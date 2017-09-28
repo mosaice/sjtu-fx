@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MyController">
+   <children>
+      <Text layoutX="37.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="自动考勤" wrappingWidth="56.0" />
+      <AnchorPane fx:id="courseFiled" layoutX="50.0" layoutY="84.0">
+         <children>
+            <TextField fx:id="course1" layoutX="29.0" text="2323" />
+            <Text layoutX="1.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="课程" textAlignment="RIGHT" />
+            <TextField fx:id="course2" layoutX="29.0" layoutY="42.0" text="2484" />
+            <Text layoutX="1.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="课程" />
+            <TextField fx:id="course3" layoutX="29.0" layoutY="89.0" text="2469" />
+            <Text layoutX="1.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="课程" />
+            <TextField fx:id="course4" layoutX="29.0" layoutY="134.0" text="2064"/>
+            <Text layoutX="1.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="课程" />
+            <TextField fx:id="course5" layoutX="29.0" layoutY="178.0" text="1767"/>
+            <Text layoutX="1.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="课程" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="studentFiled" layoutX="300.0" layoutY="76.86328125">
+         <children>
+            <TextField fx:id="student1" layoutX="42.0" layoutY="7.13671875" text="716901010002" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+            <TextField fx:id="student2" layoutX="42.0" layoutY="49.13671875" text="716901010067" />
+            <Text layoutX="14.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="学号" />
+            <TextField fx:id="student3" layoutX="42.0" layoutY="96.13671875" />
+            <TextField fx:id="student4" layoutX="42.0" layoutY="141.13671875" />
+            <TextField fx:id="student5" layoutX="42.0" layoutY="185.13671875" />
+            <Text layoutX="14.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="学号" />
+            <Text layoutX="14.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="学号" />
+            <Text layoutX="14.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="学号" />
+            <Text layoutX="14.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="学号" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="button" layoutX="429.0" layoutY="33.0" mnemonicParsing="false" onAction="#start" prefHeight="27.0" prefWidth="80.0" text="start" />
+      <TextField fx:id="cookieFiled" layoutX="75.0" layoutY="343.0" prefHeight="27.0" prefWidth="434.0" text="ASPSESSIONIDCQABBASA=KAAFLFCCDHNIOAGKIAAMJCCD" />
+      <Text layoutX="26.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="cookie" />
+      <TextField fx:id="termFiled" layoutX="79.0" layoutY="302.0" text="2017_3" />
+      <Text layoutX="52.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="学期" wrappingWidth="25.999999791383743" />
+   </children>
+</Pane>
